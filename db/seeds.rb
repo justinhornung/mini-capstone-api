@@ -9,6 +9,7 @@ Product.create(name: "Nuphy Air75", price: 110, description: "An ultra-slim wire
 Product.create(name: "Corsiar K70 RGB PRO", price: 180, description: "The K70 RGB PRO retains the iconic elements of our award-winning K70 series with a durable aluminum frame, CHERRY MX mechanical keyswitches, and per-key RGB backlighting, while setting a new bar for performance with AXON technology and a tournament switch.", image_url: "https://www.corsair.com/medias/sys_master/images/images/h56/h87/9955049570334/CH-9109414-NA/Gallery/K70_RGB_PRO_PBT_01/-CH-9109414-NA-Gallery-K70-RGB-PRO-PBT-01.png_1200Wx1200")
 Product.create(name: "Wooting 60HE", price: 175, description: "Built for Performance. You need the fastest possible input delivered consistently without fail. Not just eye-blinding RGB and dissuasive promises. This is how we deliver you the fastest possible input.", image_url: "https://uploads-ssl.webflow.com/612ca8920bc3a648125ffac3/615afbe3bda6a3d9f1fb4f83_Wooting-60HE.png")
 Product.create(name: "KBD75 v3", price: 300, description: "Custom keyboard built by Justin Hornung. Features lubed switches and stabilizers, a custom color scheme and ePBT key caps.", image_url: "http://tiny.cc/dqp3vz")
+
 Supplier.create(name: "KBDfans", email: "info@KBDfans.test", phone_number: "(800) 555-1000")
 Supplier.create(name: "Corsair", email: "info@Corsair.test", phone_number: "(800) 555-2000")
 Supplier.create(name: "Nuphy", email: "info@Nuphy.test", phone_number: "(800) 555-3000")
