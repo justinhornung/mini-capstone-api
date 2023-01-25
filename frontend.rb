@@ -10,6 +10,7 @@ while true
   puts "[1] Nuphy Air75"
   puts "[2] Corsair K70 RGB PRO"
   puts "[3] Wooting 60HE"
+  puts "[4] KBDFans KBD75 v3"
   puts "[q] Quit"
 
   input_option = gets.chomp
@@ -22,7 +23,11 @@ while true
     data = JSON.parse(response.body)
     pp data
   elsif input_option == "3"
-    response = HTTP.get("http://localhost:3000/third_product.json")
+    response = HTTP.get("http://localhost:3000/products/3.json")
+    data = JSON.parse(response.body)
+    pp data
+  elsif input_option == "4"
+    response = HTTP.get("http://localhost:3000/products/4.json")
     data = JSON.parse(response.body)
     pp data
   elsif input_option == "q"
