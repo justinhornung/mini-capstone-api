@@ -14,11 +14,11 @@ while true
 
   input_option = gets.chomp
   if input_option == "1"
-    response = HTTP.get("http://localhost:3000/first_product.json")
+    response = HTTP.get("http://localhost:3000/products/1.json")
     data = JSON.parse(response.body)
     pp data
   elsif input_option == "2"
-    response = HTTP.get("http://localhost:3000/second_product.json")
+    response = HTTP.get("http://localhost:3000/products/2.json")
     data = JSON.parse(response.body)
     pp data
   elsif input_option == "3"
