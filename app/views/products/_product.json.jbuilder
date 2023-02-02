@@ -6,7 +6,7 @@ json.total product.total
 json.is_discounted? product.is_discounted?
 json.description product.description
 json.supplier product.supplier
-
+json.categories product.categories
 json.images product.images
 
 json.created_at product.created_at
